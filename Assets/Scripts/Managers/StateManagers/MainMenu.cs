@@ -25,9 +25,9 @@ public class MainMenu : MonoBehaviour
     void OnOpen()
     {
         manager.ClosePossible = false;
-        uiManager.fadeAll(true, .5f);
+        uiManager.fadeAll(true, .6f);
         StartCoroutine(MainMenuSequence());
-        StartCoroutine(makeUIInTime("start", 15, 1000));
+        StartCoroutine(makeUIInTime("start", 35, 1000));
     }
 
     void OnClose()
@@ -60,7 +60,8 @@ public class MainMenu : MonoBehaviour
                 
             
             case "done now what":
-                StartCoroutine(makeUIInTime("start", 2, 1000));
+                StartCoroutine(makeUIInTime("start", 2, 5));
+                uiManager.PutButtonOutOfOrder("start");
                 audioManager.Play("MainMenu004");
                 
                 break;

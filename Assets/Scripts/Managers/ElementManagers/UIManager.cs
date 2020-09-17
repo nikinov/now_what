@@ -38,7 +38,8 @@ public class UIManager : MonoBehaviour
 
     private void buttonClicked(string textID)
     {
-        Clicked(textID);
+        if(Clicked != null)
+            Clicked(textID);
     }
 
     public void fadeAll(bool IN,float TIME)
@@ -67,7 +68,8 @@ public class UIManager : MonoBehaviour
 
     public void UnsubscribeToMakingOutOfOrderOnTheReplayButtonSide(GameObject go)
     {
-        makeOutOfOrder -= go.GetComponent<ReplyButton>().MakeOutOfOrder;
+        if(go != null)
+            makeOutOfOrder -= go.GetComponent<ReplyButton>().MakeOutOfOrder;
     }
 
     IEnumerator MakeReplyTextUI(string content,float ItWillLast, float fadeSpeed=2)
@@ -101,7 +103,8 @@ public class UIManager : MonoBehaviour
     IEnumerator waitForFadeOut(GameObject go,float waitingTime)
     {
         yield return new WaitForSeconds(waitingTime);
-        Destroy(go);
+        if (go != null)
+            Destroy(go);
         UnsubscribeToMakingOutOfOrderOnTheReplayButtonSide(go);
     }
 
