@@ -434,42 +434,42 @@ MonoBehaviour:
   sounds:
   - name: MainMenuBackgroundMusic
     clip: {fileID: 8300000, guid: 33129c7c4a64540a3929421c39178df2, type: 3}
-    volume: 0.2
+    volume: 0
     pitch: 0.5
     loop: 0
     playOnAwake: 0
     source: {fileID: 0}
   - name: MainMenu001
     clip: {fileID: 8300000, guid: f40e87f7ec252497e8ecc3c9e8a98a27, type: 3}
-    volume: 1
+    volume: 0
     pitch: 1
     loop: 0
     playOnAwake: 0
     source: {fileID: 0}
   - name: MainMenu002
     clip: {fileID: 8300000, guid: 5d9442b942f3f4ff0bd1ec5fda95c0de, type: 3}
-    volume: 1
+    volume: 0
     pitch: 1
     loop: 0
     playOnAwake: 0
     source: {fileID: 0}
   - name: MainMenu003
     clip: {fileID: 8300000, guid: e12e0dbd90693422f93a24bdb5f0ebf7, type: 3}
-    volume: 1
+    volume: 0
     pitch: 1
     loop: 0
     playOnAwake: 0
     source: {fileID: 0}
   - name: MainMenu004
     clip: {fileID: 8300000, guid: f96656d6ab6194c4281bb146ffe3fbe1, type: 3}
-    volume: 1
+    volume: 0
     pitch: 1
     loop: 0
     playOnAwake: 0
     source: {fileID: 0}
   - name: ButtonPush01
     clip: {fileID: 8300000, guid: 6cf65e5e00b2445a2a7c9838157aee7d, type: 3}
-    volume: 0.405
+    volume: 0
     pitch: 1
     loop: 0
     playOnAwake: 0
@@ -3273,7 +3273,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3280967b030fe804a8e7f8c50d02814c, type: 2}
+  - {fileID: 2100000, guid: 0c394f3f8a59d4158af4d24ea0e03d54, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
