@@ -20,7 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22698683-b985-461a-9f20-37ccfa646ccb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.now_what/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.now_what/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.now_what/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.now_what/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Glass/glassNormal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Glass/glassNormal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Color.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Color.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skybox/MilkyWay/Texture/MilkyWayPanorama8K.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skybox/MilkyWay/Texture/MilkyWayPanorama8K.jpg.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +41,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Room_01Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/ElementManagers/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Room_01Player.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -94,7 +104,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600240423176</updated>
-      <workItem from="1600240431410" duration="53762000" />
+      <workItem from="1600240431410" duration="54351000" />
+      <workItem from="1600558608709" duration="1387000" />
+      <workItem from="1600598003461" duration="2839000" />
+      <workItem from="1600789932787" duration="584000" />
     </task>
     <servers />
   </component>
@@ -113,6 +126,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
